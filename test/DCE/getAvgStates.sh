@@ -1,0 +1,1 @@
+awk 'BEGIN {sum1=0;sum2=0;count1=0;count2=0} {if($1>=600000) {sum1=sum1+$2;sum2=sum2+$3;count1=count1+1;count2=count2+1}} END {print "Avg state 1:"sum1/count1" ""Avg state 2:"sum2/count2}' IndividualStatesTimeProfile.dat >> getAvgStates.dat

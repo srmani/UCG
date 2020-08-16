@@ -1,0 +1,19 @@
+This is a fix implementing Ultra-Coarse-Graining (UCG) and Green's Function Reaction Dynamics (GFRD) for simulating
+biochemical reaction network systems
+
+The repository includes the following files and directory
+
+README: self-explanatory
+src: folder containing the *.cpp and *.h fix files
+doc: documentation
+examples: folder with simple examples demonstrating the application of the technique
+test: files for testing
+
+
+Compilation procedure
+------------------------
+
+Step 1: download LAMMPS tarball and unzip it
+Step 2: copy the *.cpp and *.h files from src directory into corresponding LAMMPS/src folder
+Step 3: follow the usual procedure of LAMMPS compilation
+
