@@ -1,0 +1,12 @@
+*~
+*.o
+*.so
+*.lo
+*.cu_o
+*.ptx
+*_ptx.h
+*.a
+*.d
+*.x
+log.lammps
+log.*
