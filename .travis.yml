@@ -25,5 +25,6 @@ script:
     - make yes-RIGID
     - make mpi
     - cd ../../
+    - pwd
     - cd /test/DCE/
     - mpirun -np 4 /home/travis/build/srmani/UCG-GFRD/lammps/src/lmp_mpi -in /home/travis/build/srmani/UCG-GFRD/test/DCE/cg_fm.inp
