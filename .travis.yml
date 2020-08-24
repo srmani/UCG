@@ -21,3 +21,4 @@ script:
     - cp ../../src/fix_ucg_gfrd.cpp .
     - cp ../../src/fix_ucg_gfrd.h .
     - make mpi
+    - lmp_mpi -np 4 ../../test/DCE/cg_fm.inp
