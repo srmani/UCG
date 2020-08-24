@@ -20,5 +20,8 @@ script:
     - cd src
     - cp ../../src/fix_ucg_gfrd.cpp .
     - cp ../../src/fix_ucg_gfrd.h .
+    - make yes-MOLECULE
+    - make yes-MC
+    - make yes-RIGID
     - make mpi
     - mpirun -np 4 /home/travis/build/srmani/UCG-GFRD/lammps/src/lmp_mpi -in /home/travis/build/srmani/UCG-GFRD/test/DCE/cg_fm.inp
