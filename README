@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/srmani/UCG-GFRD.svg?branch=master)](https://travis-ci.org/srmani/UCG-GFRD)
+[![Build Status](https://travis-ci.org/srmani/UCG-GFRD.png?branch=master)](https://travis-ci.org/srmani/UCG-GFRD)
 
 This is a LAMMPS fix implementing Ultra-Coarse-Graining (UCG) and Green's Function Reaction Dynamics (GFRD) for simulating
 biochemical reaction network systems (ex: actin cytoskeletal networks with regulatory proteins)
