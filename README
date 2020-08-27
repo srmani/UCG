@@ -24,7 +24,7 @@ Step 2: copy the *.cpp and *.h files from src directory into corresponding LAMMP
 Step 3: follow the usual procedure of LAMMPS compilation (https://lammps.sandia.gov/)
 
 
-https://img.shields.io/travis/com/srmani/UCG-GFRD?color=green
+<img alt="Travis (.com)" src="https://img.shields.io/travis/com/srmani/UCG-GFRD?color=green">
 
 
 
