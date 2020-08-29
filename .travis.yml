@@ -9,7 +9,6 @@ jobs:
         - CC=mpicc 
         - CXX=mpic++
         - LAMMPS_JobScript="scripts/DCE.sh"
-        - LAMMPS_JobScript="scripts/TwoComponent_TwoStateToySystem.sh"
 
 branches:
   only:
