@@ -19,4 +19,4 @@ install:
     - source scripts/lammps.sh
 
 script:
-    - ./${LAMMPS_JobScript}
+    - sh ${LAMMPS_JobScript}
