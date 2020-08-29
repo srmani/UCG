@@ -5,11 +5,12 @@ jobs:
     - name: "UCG-GFRD Compilation and Job Test" 
       os: linux
       dist: trusty
-      env: 
+      env:
         - CC=mpicc 
         - CXX=mpic++
-        - LAMMPS_JobScript="scripts/DCE.sh"
-        - LAMMPS_JobScript="scripts/TwoComponent_TwoStateToySystem.sh"
+        matrix:
+          - LAMMPS_JobScript="scripts/DCE.sh"
+          - LAMMPS_JobScript="scripts/TwoComponent_TwoStateToySystem.sh"
 
 branches:
   only:
