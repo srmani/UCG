@@ -9,3 +9,4 @@ make yes-MC
 make yes-RIGID
 make mpi
 cd ../../
+pwd
