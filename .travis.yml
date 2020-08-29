@@ -7,23 +7,9 @@ jobs:
       env: CC=mpicc CXX=mpic++
 
 install:
-    - export PATH="$HOME/opt/bin:$PATH"
-    - export CPATH="$HOME/opt/include:$CPATH"
-    - export INCLUDE="$HOME/opt/include:$INCLUDE"
-    - export LIBRARY_PATH="$HOME/opt/lib:$LIBRARY_PATH"
-    - export LD_LIBRARY_PATH="$HOME/opt/lib:$LD_LIBRARY_PATH"
     - if test "$CXX" == "mpic++" -a "$TRAVIS_OS_NAME" == "linux" ; then sudo apt-get install -y libopenmpi-dev openmpi-bin ; fi
+    - scripts/./lammps.sh
 
 script:
-    - git clone -b stable https://github.com/lammps/lammps.git
-    - cd lammps
-    - cd src
-    - cp ../../src/fix_ucg_gfrd.cpp .
-    - cp ../../src/fix_ucg_gfrd.h .
-    - make yes-MOLECULE
-    - make yes-MC
-    - make yes-RIGID
-    - make mpi
-    - cd ../../
     - cd test/DCE/
     - mpirun -np 4 /home/travis/build/srmani/UCG-GFRD/lammps/src/lmp_mpi -in /home/travis/build/srmani/UCG-GFRD/test/DCE/cg_fm.inp
