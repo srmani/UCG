@@ -13,7 +13,7 @@ pair_coeff  2 2 cg_force_pair.table SF_Pairwise_TRANS_TRANS 15
 
 velocity    all create 300.0 2374323
 
-fix	    1 all nvt temp 300.0 300.0 100.0
+fix	    	1 all nvt temp 300.0 300.0 100.0
 fix         UCG all ucg_gfrd 2222 Beta 1.6775 nspecies 1 nstates 2 speciesbeads 1 aoffset 1 boffset 0 rates rates.in mhcorr mhcorr.in restrictmol restrictmol.in
 thermo      10
-run         1000
+run         100
