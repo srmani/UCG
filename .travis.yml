@@ -8,7 +8,7 @@ jobs:
 
 install:
     - if test "$CXX" == "mpic++" -a "$TRAVIS_OS_NAME" == "linux" ; then sudo apt-get install -y libopenmpi-dev openmpi-bin ; fi
-    - scripts/./lammps.sh
+    - scripts/sh lammps.sh
 
 script:
     - cd test/DCE/
