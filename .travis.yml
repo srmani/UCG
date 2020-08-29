@@ -8,8 +8,8 @@ jobs:
       env: 
         - CC=mpicc 
         - CXX=mpic++
-        - LAMMPS_JobScript = "scripts/DCE.sh"
-        - LAMMPS_JobScript = "scripts/TwoComponent-TwoStateToySystem.sh"
+        - LAMMPS_JobScript="scripts/DCE.sh"
+        - LAMMPS_JobScript="scripts/TwoComponent-TwoStateToySystem.sh"
 
 branches:
   only:
