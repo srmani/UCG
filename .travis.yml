@@ -9,12 +9,12 @@ jobs:
         - CC=mpicc 
         - CXX=mpic++
         - LAMMPS_JobScript = "scripts/DCE.sh"
-        - LAMMPS_JobScript = "scripts/TwoComponent-TwoStateToySystem.sh"		
-		
+        - LAMMPS_JobScript = "scripts/TwoComponent-TwoStateToySystem.sh"
+
 branches:
   only:
     - master
-	
+
 install:
     - if test "$CXX" == "mpic++" -a "$TRAVIS_OS_NAME" == "linux" ; then sudo apt-get install -y libopenmpi-dev openmpi-bin ; fi
     - source scripts/lammps.sh
