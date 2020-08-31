@@ -35,5 +35,3 @@ Compilation procedure
 Step 1: download LAMMPS tarball and unzip it
 Step 2: copy the *.cpp and *.h files from src directory into corresponding LAMMPS/src/ folder
 Step 3: follow the usual procedure of LAMMPS compilation (https://lammps.sandia.gov/)
-
-[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
