@@ -2,6 +2,7 @@ This is a LAMMPS fix implementing Ultra-Coarse-Graining (UCG) and Green's Functi
 biochemical reaction network systems (ex: actin cytoskeletal networks with regulatory proteins)
 
 Refer to the following journal articles to understand the UCG and GFRD technique:
+
 1) The Theory of Ultra-Coarse-Graining. 1. General Principles (DOI: https://doi.org/10.1021/ct4000444) 
 
 2) The Theory of Ultra-Coarse-Graining. 2. Numerical Implementation (DOI: https://doi.org/10.1021/ct500834t)
@@ -10,9 +11,19 @@ Refer to the following journal articles to understand the UCG and GFRD technique
 
 4) Combining Molecular Dynamics with Mesoscopic Green's Function Reaction Dynamics Simulations (DOI: https://doi.org/10.1063/1.4936254)
 
-Compilation procedure
-------------------------
+The main features of UCG-GFRD:
 
-Step 1: download LAMMPS tarball and unzip it
-Step 2: copy the *.cpp and *.h files from src directory into corresponding LAMMPS/src/ folder
-Step 3: follow the usual procedure of LAMMPS compilation (https://lammps.sandia.gov/)
+1) Computationally efficient technique 
+
+2) Explicit connection between the conformational fluctuations and reaction rates
+
+3) Highly predictive for the effects of external perturbations on reaction rates
+
+How to use
+----------
+
+Step 1: download LAMMPS tarball and unzip it (https://lammps.sandia.gov/) 
+
+Step 2: copy the fix_ucg_gfrd.cpp and fix_ucg_gfrd.h files into LAMMPS/src/ folder
+
+Step 3: follow the usual procedure of LAMMPS compilation(for example: make yes-USER_PACKAGES, make mpi) 
