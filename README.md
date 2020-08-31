@@ -1,8 +1,8 @@
 
-Build status: 
 [![TravisCI](https://img.shields.io/travis/com/srmani/UCG-GFRD/master)](https://travis-ci.org/github/srmani/UCG-GFRD)
-
-commit status: <img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/srmani/UCG-GFRD/master/f5fc36c1acbec2009593c9bc730246ed407c4382">
+<img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/srmani/UCG-GFRD/master/f5fc36c1acbec2009593c9bc730246ed407c4382">
+[![Language grade: C++](https://img.shields.io/lgtm/grade/c++/g/srmani/UCG-GFRD.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/srmani/UCG-GFRD//context:C++)
+[![codecov](https://codecov.io/gh/Andrew-AbiMansour/PyGranSim/branch/master/graph/badge.svg)](https://codecov.io/gh/Andrew-AbiMansour/PyGranSim/branch/master)
 
 This is a LAMMPS fix implementing Ultra-Coarse-Graining (UCG) and Green's Function Reaction Dynamics (GFRD) for simulating
 biochemical reaction network systems (ex: actin cytoskeletal networks with regulatory proteins)
