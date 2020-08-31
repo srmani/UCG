@@ -1,5 +1,6 @@
 
-Build status: [![TravisCI](https://img.shields.io/travis/com/srmani/UCG-GFRD/master)](https://travis-ci.org/github/srmani/UCG-GFRD)
+Build status: 
+[![TravisCI](https://img.shields.io/travis/com/srmani/UCG-GFRD/master)](https://travis-ci.org/github/srmani/UCG-GFRD)
 
 commit status: <img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/srmani/UCG-GFRD/master/f5fc36c1acbec2009593c9bc730246ed407c4382">
 
