@@ -11,7 +11,8 @@ Refer to the following journal articles to understand the UCG and GFRD technique
 
 4) Combining Molecular Dynamics with Mesoscopic Green's Function Reaction Dynamics Simulations (DOI: https://doi.org/10.1063/1.4936254)
 
-The main features of UCG-GFRD:
+The main features of UCG-GFRD
+-----------------------------
 
 1) Computationally efficient technique 
 
