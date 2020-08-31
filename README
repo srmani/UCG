@@ -1,10 +1,8 @@
-```html
 <html>
 <body>
 Build status: <img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/srmani/UCG-GFRD/master">
 </body>
 </html>
-```
 
 commit status: <img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/srmani/UCG-GFRD/master/f5fc36c1acbec2009593c9bc730246ed407c4382">
 
