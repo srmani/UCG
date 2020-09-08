@@ -24,13 +24,13 @@ int main()
 			nbondtypes_expected=nbondtypes_expected+nstates[i]*bondtype_offset[i];
 		}
 		if(ntypes_expected!=8 || nbondtypes_expected!=7)
-			throw (0)
+			throw (0);
 	}
 	
 	catch(...)
 	{
-		return 0;
+		return 1;
 	}
 	
-	return 1;
+	return 0;
 }
