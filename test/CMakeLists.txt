@@ -1,4 +1,4 @@
-message(STATUS "building tests")
+message(STATUS "building unit tests")
 
 file(GLOB files "test_*.cpp")
 
