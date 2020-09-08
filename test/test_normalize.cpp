@@ -1,3 +1,5 @@
+/* add a condition to check for magnitude=infinity ie NaN -isnan() */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -24,8 +26,7 @@ int main()
 {
 	double *m;
 	double a[3][3]={{1,1,1},{-10,-10,-10},{-10,10,0}};
-	// add a condition to check for magnitude=infinity ie NaN -isnan() 
-	
+		
 	try
 	{	
 		for (int i=0;i<3;i++)
