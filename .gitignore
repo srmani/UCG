@@ -10,3 +10,4 @@
 *.x
 log.lammps
 log.*
+build/
