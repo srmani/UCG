@@ -19,6 +19,22 @@ the density evolves with time.
 - `analyze_density.py` – parses the log, writes `thermo.csv` and `density_vs_time.png`
 - `log.lammps`, `thermo.csv`, `density_vs_time.png` – results of the run
 
+## Results
+
+![density vs time](density_vs_time.png)
+
+| Window       | Density (g/cm³)   |
+|--------------|-------------------|
+| 0–10 ps      | 0.913 → ~1.00 (barostat compresses the lattice start) |
+| 0.1–0.5 ns   | 0.9985 ± 0.0069   |
+| 0.5–1.0 ns   | 0.9992 ± 0.0081   |
+
+Over 0.5–1.0 ns: T = 297.7 ± 5.6 K, P = 12 ± 396 atm, E_tot = −9381 ± 64 kcal/mol
+(± is the standard deviation of the 2 ps samples; instantaneous pressure fluctuations are
+large for 3000 atoms). The density agrees with published SPC/E values (≈ 0.998–1.00 g/cm³ at
+298 K) and with experiment (0.997 g/cm³). Run time: 63 min on 4 MPI ranks (LAMMPS 22 Jul 2025).
+`water_final.data` holds the final configuration for restarts.
+
 ## Running
 
 ```bash
